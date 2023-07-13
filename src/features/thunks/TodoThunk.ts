@@ -2,7 +2,7 @@ import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import ky from "ky";
 import {ITodos} from "../../models/ITodos";
 
-const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://my-json-server.typicode.com/defiques/todo-react"
 
 export const fetchTodos = createAsyncThunk(
     'todo/fetchTodo',
